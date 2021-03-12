@@ -9,5 +9,9 @@ RSpec.describe User do
     it 'must be at least 6 characters long' do
       expect(user.valid?).to be_falsy
     end
+    it 'can be registered if 6 characters long' do
+      user.password = 'longpassword'
+      expect(user.valid?).to be_truthy
+    end
   end
 end
