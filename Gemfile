@@ -19,9 +19,9 @@ gem 'webpacker', '~> 4.0'
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
-  gem 'simplecov', require: false
   gem 'rspec-rails', '~> 4.1.0'
   gem 'rubocop-rails', require: false
+  gem 'simplecov', require: false
 end
 
 group :development do
