@@ -20,4 +20,4 @@ jobs:
     - name: Install dependencies
       run: bundle install
     - name: Run tests
-      run: bundle exec rspc
+      run: bundle exec rspec
