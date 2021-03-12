@@ -1,4 +1,5 @@
-name: Ruby
+
+name: Continous Integration Flow
 
 on:
   push:
